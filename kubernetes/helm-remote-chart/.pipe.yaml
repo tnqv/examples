@@ -9,7 +9,7 @@ spec:
     helmChart:
       repository: pipecd
       name: helloworld
-      version: v0.6.0
+      version: v0.7.0
     helmOptions:
       valueFiles:
         - values.yaml
