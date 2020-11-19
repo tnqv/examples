@@ -4,11 +4,12 @@ apiVersion: pipecd.dev/v1beta1
 kind: KubernetesApp
 spec:
   input:
+    namespace: helloworld
     # Helm chart sourced from a Helm Chart Repository.
     helmChart:
       repository: pipecd
       name: helloworld
-      version: v0.5.0
+      version: v0.6.0
     helmOptions:
       valueFiles:
         - values.yaml
